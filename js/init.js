@@ -4,12 +4,12 @@
 /*	contact form
 ------------------------------------------------------*/
 
-   $('form#contact-form button.submit').click(function() {
+   $('form#contactForm button.submit').click(function() {
 
-      var contactName = $('#contact-form #contactName').val();
-      var contactEmail = $('#contact-form #contactEmail').val();
-      var contactSubject = $('#contact-form #contactSubject').val();
-      var contactMessage = $('#contact-form #contactMessage').val();
+      var contactName = $('#contactForm #contactName').val();
+      var contactEmail = $('#contactForm #contactEmail').val();
+      var contactSubject = $('#contactForm #contactSubject').val();
+      var contactMessage = $('#contactForm #contactMessage').val();
 
       var data = 'contactName=' + contactName + '&contactEmail=' + contactEmail +
                '&contactSubject=' + contactSubject + '&contactMessage=' + contactMessage;
