@@ -15,18 +15,18 @@ $headers .= 'Reply-To: '.$field_email."\r\n";
 
 $mail_status = mail($mail_to, $subject, $body_message, $headers);
 
-if ($mail_status) { ?>
+if ($mail_status) { 
 	<script language="javascript" type="text/javascript">
 		alert('Thank you for the message. I will contact you shortly.');
 		window.location = 'index.html';
 	</script>
-<?php
+
 }
-else { ?>
+else { 
 	<script language="javascript" type="text/javascript">
 		alert('Message failed.');
 		window.location = 'index.html';
 	</script>
-<?php
+
 }
 ?>
