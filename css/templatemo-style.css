@@ -177,10 +177,10 @@ textarea {
  2. Basic Style
 -------------------------------------------------------- */
 body {
-  font-size: 14px;
+  font-size: 20px;
   line-height: 24px;
   color: #777777;
-  font-family: 'robotoregular';
+  font-family: '微軟正黑體', 'robotoregular';
   overflow-x: hidden;
 }
 
@@ -247,8 +247,8 @@ h1, h2, h3, h4, h5 {
 }
 
 h4.widget-title {
-  font-size: 16px;
-  font-family: 'robotobold';
+  font-size: 24px;
+  font-family: '微軟正黑體', 'robotobold';
   text-transform: uppercase;
   margin-bottom: 40px;
 }
@@ -308,7 +308,7 @@ h3.profile-title {
   margin-bottom: 5px;
   color: white;
   font-size: 18px;
-  font-family: 'robotobold';
+  font-family: '微軟正黑體', 'robotobold';
 }
 
 .main-navigation {
@@ -446,7 +446,7 @@ h3.profile-title {
 }
 .welcome-text h2 {
   font-size: 42px;
-  font-family: 'robotobold';
+  font-family: '微軟正黑體', 'robotobold';
   color: white;
   margin-bottom: 30px;
 }
